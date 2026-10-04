@@ -1,4 +1,4 @@
-var C = 'riverbeats-v9';
+var C = 'riverbeats-v10';
 var SHELL = ['./', 'index.html', 'icon-192.png', 'manifest.webmanifest'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(C).then(function (c) { return c.addAll(SHELL); }).then(function () { return self.skipWaiting(); }));
