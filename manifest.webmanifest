@@ -1,0 +1,28 @@
+{
+  "name": "RiverBeats",
+  "short_name": "RiverBeats",
+  "description": "A desert arcade game set to the River Beats library.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
+  "orientation": "portrait",
+  "background_color": "#1b0d2e",
+  "theme_color": "#1b0d2e",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
